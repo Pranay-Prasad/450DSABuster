@@ -29,6 +29,7 @@ public class Q411{
         for(int i = 0;i<n;i++){
             brr[i] = sc.nextInt();
         }
+        sc.close();
         int ans = solve(arr,brr,n,w);
         System.out.println(ans);
     }

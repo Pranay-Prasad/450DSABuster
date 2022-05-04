@@ -30,6 +30,7 @@ public class Q410 {
             }
             long ans = solve(coins,n,m);
             System.out.println(ans);
+            sc.close();
         }
     }
 
